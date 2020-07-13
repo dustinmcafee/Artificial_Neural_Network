@@ -1,0 +1,1260 @@
+Script started on Thu 22 Nov 2018 05:29:37 PM EST
+58 Dimensions
+4001 Triaining Set Observations
+600 Test Set Observations
+Performing Back Propogation on 1000 epochs
+K-Fold Cross-Validation with 5 Folds
+Learning Rate: 0.2
+Number of neurons per Hidden Layer: 3
+Number of Hidden Layers: 2
+Performing K-Fold Validation with K: 5 Folds 920 size each
+  Fold: 1
+    Training Network
+      Epoch: 1
+        Sum of Errors Squared: [986.3814293]
+      Epoch: 10
+        Sum of Errors Squared: [795.0894104]
+      Epoch: 20
+        Sum of Errors Squared: [717.46282252]
+      Epoch: 30
+        Sum of Errors Squared: [677.93433905]
+      Epoch: 40
+        Sum of Errors Squared: [652.46241873]
+      Epoch: 50
+        Sum of Errors Squared: [633.6804646]
+      Epoch: 60
+        Sum of Errors Squared: [618.69737455]
+      Epoch: 70
+        Sum of Errors Squared: [606.21050489]
+      Epoch: 80
+        Sum of Errors Squared: [595.54199769]
+      Epoch: 90
+        Sum of Errors Squared: [586.11894299]
+      Epoch: 100
+        Sum of Errors Squared: [577.30152596]
+      Epoch: 110
+        Sum of Errors Squared: [567.10531429]
+      Epoch: 120
+        Sum of Errors Squared: [556.44492707]
+      Epoch: 130
+        Sum of Errors Squared: [547.82373083]
+      Epoch: 140
+        Sum of Errors Squared: [540.71455839]
+      Epoch: 150
+        Sum of Errors Squared: [534.53451328]
+      Epoch: 160
+        Sum of Errors Squared: [529.00426595]
+      Epoch: 170
+        Sum of Errors Squared: [523.95742802]
+      Epoch: 180
+        Sum of Errors Squared: [519.21259972]
+      Epoch: 190
+        Sum of Errors Squared: [514.41275118]
+      Epoch: 200
+        Sum of Errors Squared: [509.82125905]
+      Epoch: 210
+        Sum of Errors Squared: [505.65096956]
+      Epoch: 220
+        Sum of Errors Squared: [501.81913426]
+      Epoch: 230
+        Sum of Errors Squared: [498.26159335]
+      Epoch: 240
+        Sum of Errors Squared: [494.9300499]
+      Epoch: 250
+        Sum of Errors Squared: [491.77882856]
+      Epoch: 260
+        Sum of Errors Squared: [488.7540738]
+      Epoch: 270
+        Sum of Errors Squared: [485.83123382]
+      Epoch: 280
+        Sum of Errors Squared: [483.031681]
+      Epoch: 290
+        Sum of Errors Squared: [480.36889668]
+      Epoch: 300
+        Sum of Errors Squared: [477.83697867]
+      Epoch: 310
+        Sum of Errors Squared: [475.42355332]
+      Epoch: 320
+        Sum of Errors Squared: [473.11641484]
+      Epoch: 330
+        Sum of Errors Squared: [470.90508964]
+      Epoch: 340
+        Sum of Errors Squared: [468.78082268]
+      Epoch: 350
+        Sum of Errors Squared: [466.7362517]
+      Epoch: 360
+        Sum of Errors Squared: [464.76509687]
+      Epoch: 370
+        Sum of Errors Squared: [462.86192374]
+      Epoch: 380
+        Sum of Errors Squared: [461.02197165]
+      Epoch: 390
+        Sum of Errors Squared: [459.24102946]
+      Epoch: 400
+        Sum of Errors Squared: [457.5153439]
+      Epoch: 410
+        Sum of Errors Squared: [455.84154978]
+      Epoch: 420
+        Sum of Errors Squared: [454.21661553]
+      Epoch: 430
+        Sum of Errors Squared: [452.63779957]
+      Epoch: 440
+        Sum of Errors Squared: [451.10261468]
+      Epoch: 450
+        Sum of Errors Squared: [449.60879834]
+      Epoch: 460
+        Sum of Errors Squared: [448.15428774]
+      Epoch: 470
+        Sum of Errors Squared: [446.73719842]
+      Epoch: 480
+        Sum of Errors Squared: [445.35580569]
+      Epoch: 490
+        Sum of Errors Squared: [444.00852825]
+      Epoch: 500
+        Sum of Errors Squared: [442.69391341]
+      Epoch: 510
+        Sum of Errors Squared: [441.41062338]
+      Epoch: 520
+        Sum of Errors Squared: [440.15742226]
+      Epoch: 530
+        Sum of Errors Squared: [438.93316316]
+      Epoch: 540
+        Sum of Errors Squared: [437.73677514]
+      Epoch: 550
+        Sum of Errors Squared: [436.5672499]
+      Epoch: 560
+        Sum of Errors Squared: [435.42362808]
+      Epoch: 570
+        Sum of Errors Squared: [434.30498584]
+      Epoch: 580
+        Sum of Errors Squared: [433.21042222]
+      Epoch: 590
+        Sum of Errors Squared: [432.13904857]
+      Epoch: 600
+        Sum of Errors Squared: [431.08998083]
+      Epoch: 610
+        Sum of Errors Squared: [430.06233553]
+      Epoch: 620
+        Sum of Errors Squared: [429.05522945]
+      Epoch: 630
+        Sum of Errors Squared: [428.06778278]
+      Epoch: 640
+        Sum of Errors Squared: [427.09912458]
+      Epoch: 650
+        Sum of Errors Squared: [426.14839981]
+      Epoch: 660
+        Sum of Errors Squared: [425.21477661]
+      Epoch: 670
+        Sum of Errors Squared: [424.29745324]
+      Epoch: 680
+        Sum of Errors Squared: [423.39566395]
+      Epoch: 690
+        Sum of Errors Squared: [422.50868315]
+      Epoch: 700
+        Sum of Errors Squared: [421.63582766]
+      Epoch: 710
+        Sum of Errors Squared: [420.77645657]
+      Epoch: 720
+        Sum of Errors Squared: [419.9299692]
+      Epoch: 730
+        Sum of Errors Squared: [419.09580178]
+      Epoch: 740
+        Sum of Errors Squared: [418.27342441]
+      Epoch: 750
+        Sum of Errors Squared: [417.46234138]
+      Epoch: 760
+        Sum of Errors Squared: [416.66210041]
+      Epoch: 770
+        Sum of Errors Squared: [415.87232143]
+      Epoch: 780
+        Sum of Errors Squared: [415.0927636]
+      Epoch: 790
+        Sum of Errors Squared: [414.32345894]
+      Epoch: 800
+        Sum of Errors Squared: [413.56493363]
+      Epoch: 810
+        Sum of Errors Squared: [412.81845451]
+      Epoch: 820
+        Sum of Errors Squared: [412.08599099]
+      Epoch: 830
+        Sum of Errors Squared: [411.36934667]
+      Epoch: 840
+        Sum of Errors Squared: [410.66858632]
+      Epoch: 850
+        Sum of Errors Squared: [409.98148719]
+      Epoch: 860
+        Sum of Errors Squared: [409.30505479]
+      Epoch: 870
+        Sum of Errors Squared: [408.63721405]
+      Epoch: 880
+        Sum of Errors Squared: [407.97708949]
+      Epoch: 890
+        Sum of Errors Squared: [407.32449015]
+      Epoch: 900
+        Sum of Errors Squared: [406.67945554]
+      Epoch: 910
+        Sum of Errors Squared: [406.04204658]
+      Epoch: 920
+        Sum of Errors Squared: [405.41228394]
+      Epoch: 930
+        Sum of Errors Squared: [404.79014298]
+      Epoch: 940
+        Sum of Errors Squared: [404.17556362]
+      Epoch: 950
+        Sum of Errors Squared: [403.56846115]
+      Epoch: 960
+        Sum of Errors Squared: [402.96873471]
+      Epoch: 970
+        Sum of Errors Squared: [402.37627325]
+      Epoch: 980
+        Sum of Errors Squared: [401.79095972]
+      Epoch: 990
+        Sum of Errors Squared: [401.21267383]
+      Epoch: 1000
+        Sum of Errors Squared: [400.6412941]
+  Fold: 2
+    Training Network
+      Epoch: 1
+        Sum of Errors Squared: [989.63511257]
+      Epoch: 10
+        Sum of Errors Squared: [798.64435401]
+      Epoch: 20
+        Sum of Errors Squared: [715.19209678]
+      Epoch: 30
+        Sum of Errors Squared: [675.04232991]
+      Epoch: 40
+        Sum of Errors Squared: [649.12567615]
+      Epoch: 50
+        Sum of Errors Squared: [629.62318621]
+      Epoch: 60
+        Sum of Errors Squared: [613.18102556]
+      Epoch: 70
+        Sum of Errors Squared: [595.01221738]
+      Epoch: 80
+        Sum of Errors Squared: [576.61492015]
+      Epoch: 90
+        Sum of Errors Squared: [564.88165871]
+      Epoch: 100
+        Sum of Errors Squared: [555.2192303]
+      Epoch: 110
+        Sum of Errors Squared: [546.750195]
+      Epoch: 120
+        Sum of Errors Squared: [539.1991834]
+      Epoch: 130
+        Sum of Errors Squared: [532.41079807]
+      Epoch: 140
+        Sum of Errors Squared: [526.26110227]
+      Epoch: 150
+        Sum of Errors Squared: [520.64965029]
+      Epoch: 160
+        Sum of Errors Squared: [515.49385852]
+      Epoch: 170
+        Sum of Errors Squared: [510.72582674]
+      Epoch: 180
+        Sum of Errors Squared: [506.29055397]
+      Epoch: 190
+        Sum of Errors Squared: [502.14361145]
+      Epoch: 200
+        Sum of Errors Squared: [498.24868026]
+      Epoch: 210
+        Sum of Errors Squared: [494.57559109]
+      Epoch: 220
+        Sum of Errors Squared: [491.09898936]
+      Epoch: 230
+        Sum of Errors Squared: [487.79745967]
+      Epoch: 240
+        Sum of Errors Squared: [484.6529172]
+      Epoch: 250
+        Sum of Errors Squared: [481.65014024]
+      Epoch: 260
+        Sum of Errors Squared: [478.77637774]
+      Epoch: 270
+        Sum of Errors Squared: [476.02099997]
+      Epoch: 280
+        Sum of Errors Squared: [473.37517493]
+      Epoch: 290
+        Sum of Errors Squared: [470.83155599]
+      Epoch: 300
+        Sum of Errors Squared: [468.38396133]
+      Epoch: 310
+        Sum of Errors Squared: [466.0270179]
+      Epoch: 320
+        Sum of Errors Squared: [463.75575392]
+      Epoch: 330
+        Sum of Errors Squared: [461.56519152]
+      Epoch: 340
+        Sum of Errors Squared: [459.4501209]
+      Epoch: 350
+        Sum of Errors Squared: [457.40528243]
+      Epoch: 360
+        Sum of Errors Squared: [455.42590459]
+      Epoch: 370
+        Sum of Errors Squared: [453.50812593]
+      Epoch: 380
+        Sum of Errors Squared: [451.64892659]
+      Epoch: 390
+        Sum of Errors Squared: [449.84575001]
+      Epoch: 400
+        Sum of Errors Squared: [448.09619423]
+      Epoch: 410
+        Sum of Errors Squared: [446.39789876]
+      Epoch: 420
+        Sum of Errors Squared: [444.74854963]
+      Epoch: 430
+        Sum of Errors Squared: [443.14591341]
+      Epoch: 440
+        Sum of Errors Squared: [441.58786182]
+      Epoch: 450
+        Sum of Errors Squared: [440.07238091]
+      Epoch: 460
+        Sum of Errors Squared: [438.59756937]
+      Epoch: 470
+        Sum of Errors Squared: [437.16163155]
+      Epoch: 480
+        Sum of Errors Squared: [435.76286876]
+      Epoch: 490
+        Sum of Errors Squared: [434.39967112]
+      Epoch: 500
+        Sum of Errors Squared: [433.07051073]
+      Epoch: 510
+        Sum of Errors Squared: [431.77393638]
+      Epoch: 520
+        Sum of Errors Squared: [430.50856968]
+      Epoch: 530
+        Sum of Errors Squared: [429.27310204]
+      Epoch: 540
+        Sum of Errors Squared: [428.06629231]
+      Epoch: 550
+        Sum of Errors Squared: [426.88696455]
+      Epoch: 560
+        Sum of Errors Squared: [425.73400593]
+      Epoch: 570
+        Sum of Errors Squared: [424.60636429]
+      Epoch: 580
+        Sum of Errors Squared: [423.50304554]
+      Epoch: 590
+        Sum of Errors Squared: [422.42311072]
+      Epoch: 600
+        Sum of Errors Squared: [421.3656729]
+      Epoch: 610
+        Sum of Errors Squared: [420.32989379]
+      Epoch: 620
+        Sum of Errors Squared: [419.31498037]
+      Epoch: 630
+        Sum of Errors Squared: [418.32018144]
+      Epoch: 640
+        Sum of Errors Squared: [417.34478442]
+      Epoch: 650
+        Sum of Errors Squared: [416.38811215]
+      Epoch: 660
+        Sum of Errors Squared: [415.44952009]
+      Epoch: 670
+        Sum of Errors Squared: [414.52839375]
+      Epoch: 680
+        Sum of Errors Squared: [413.62414637]
+      Epoch: 690
+        Sum of Errors Squared: [412.73621703]
+      Epoch: 700
+        Sum of Errors Squared: [411.86406887]
+      Epoch: 710
+        Sum of Errors Squared: [411.00718771]
+      Epoch: 720
+        Sum of Errors Squared: [410.16508075]
+      Epoch: 730
+        Sum of Errors Squared: [409.33727557]
+      Epoch: 740
+        Sum of Errors Squared: [408.52331917]
+      Epoch: 750
+        Sum of Errors Squared: [407.72277712]
+      Epoch: 760
+        Sum of Errors Squared: [406.93523285]
+      Epoch: 770
+        Sum of Errors Squared: [406.16028696]
+      Epoch: 780
+        Sum of Errors Squared: [405.39755651]
+      Epoch: 790
+        Sum of Errors Squared: [404.64667444]
+      Epoch: 800
+        Sum of Errors Squared: [403.90728895]
+      Epoch: 810
+        Sum of Errors Squared: [403.17906287]
+      Epoch: 820
+        Sum of Errors Squared: [402.4616731]
+      Epoch: 830
+        Sum of Errors Squared: [401.75481005]
+      Epoch: 840
+        Sum of Errors Squared: [401.05817702]
+      Epoch: 850
+        Sum of Errors Squared: [400.3714897]
+      Epoch: 860
+        Sum of Errors Squared: [399.6944756]
+      Epoch: 870
+        Sum of Errors Squared: [399.02687353]
+      Epoch: 880
+        Sum of Errors Squared: [398.36843309]
+      Epoch: 890
+        Sum of Errors Squared: [397.71891419]
+      Epoch: 900
+        Sum of Errors Squared: [397.07808652]
+      Epoch: 910
+        Sum of Errors Squared: [396.44572915]
+      Epoch: 920
+        Sum of Errors Squared: [395.82163003]
+      Epoch: 930
+        Sum of Errors Squared: [395.20558558]
+      Epoch: 940
+        Sum of Errors Squared: [394.59740026]
+      Epoch: 950
+        Sum of Errors Squared: [393.9968862]
+      Epoch: 960
+        Sum of Errors Squared: [393.4038628]
+      Epoch: 970
+        Sum of Errors Squared: [392.81815634]
+      Epoch: 980
+        Sum of Errors Squared: [392.23959965]
+      Epoch: 990
+        Sum of Errors Squared: [391.66803177]
+      Epoch: 1000
+        Sum of Errors Squared: [391.10329765]
+  Fold: 3
+    Training Network
+      Epoch: 1
+        Sum of Errors Squared: [988.73525084]
+      Epoch: 10
+        Sum of Errors Squared: [796.76193981]
+      Epoch: 20
+        Sum of Errors Squared: [721.26736314]
+      Epoch: 30
+        Sum of Errors Squared: [683.95136063]
+      Epoch: 40
+        Sum of Errors Squared: [659.67819663]
+      Epoch: 50
+        Sum of Errors Squared: [641.77154794]
+      Epoch: 60
+        Sum of Errors Squared: [627.40202129]
+      Epoch: 70
+        Sum of Errors Squared: [615.25913502]
+      Epoch: 80
+        Sum of Errors Squared: [604.62322446]
+      Epoch: 90
+        Sum of Errors Squared: [594.70243085]
+      Epoch: 100
+        Sum of Errors Squared: [582.21682491]
+      Epoch: 110
+        Sum of Errors Squared: [570.97713384]
+      Epoch: 120
+        Sum of Errors Squared: [562.34319925]
+      Epoch: 130
+        Sum of Errors Squared: [555.1144087]
+      Epoch: 140
+        Sum of Errors Squared: [548.77378559]
+      Epoch: 150
+        Sum of Errors Squared: [543.07573842]
+      Epoch: 160
+        Sum of Errors Squared: [537.86845014]
+      Epoch: 170
+        Sum of Errors Squared: [533.05044964]
+      Epoch: 180
+        Sum of Errors Squared: [528.56379248]
+      Epoch: 190
+        Sum of Errors Squared: [524.38599206]
+      Epoch: 200
+        Sum of Errors Squared: [520.50436546]
+      Epoch: 210
+        Sum of Errors Squared: [516.89647044]
+      Epoch: 220
+        Sum of Errors Squared: [513.5317553]
+      Epoch: 230
+        Sum of Errors Squared: [510.3800963]
+      Epoch: 240
+        Sum of Errors Squared: [507.41588161]
+      Epoch: 250
+        Sum of Errors Squared: [504.61802084]
+      Epoch: 260
+        Sum of Errors Squared: [501.96882055]
+      Epoch: 270
+        Sum of Errors Squared: [499.45306589]
+      Epoch: 280
+        Sum of Errors Squared: [497.05747645]
+      Epoch: 290
+        Sum of Errors Squared: [494.77038663]
+      Epoch: 300
+        Sum of Errors Squared: [492.58151391]
+      Epoch: 310
+        Sum of Errors Squared: [490.48174684]
+      Epoch: 320
+        Sum of Errors Squared: [488.46293732]
+      Epoch: 330
+        Sum of Errors Squared: [486.51770896]
+      Epoch: 340
+        Sum of Errors Squared: [484.63929816]
+      Epoch: 350
+        Sum of Errors Squared: [482.82143334]
+      Epoch: 360
+        Sum of Errors Squared: [481.05824365]
+      Epoch: 370
+        Sum of Errors Squared: [479.3441829]
+      Epoch: 380
+        Sum of Errors Squared: [477.6739618]
+      Epoch: 390
+        Sum of Errors Squared: [476.04249505]
+      Epoch: 400
+        Sum of Errors Squared: [474.44487504]
+      Epoch: 410
+        Sum of Errors Squared: [472.87636926]
+      Epoch: 420
+        Sum of Errors Squared: [471.33239425]
+      Epoch: 430
+        Sum of Errors Squared: [469.80834644]
+      Epoch: 440
+        Sum of Errors Squared: [468.29910313]
+      Epoch: 450
+        Sum of Errors Squared: [466.79827723]
+      Epoch: 460
+        Sum of Errors Squared: [465.30312598]
+      Epoch: 470
+        Sum of Errors Squared: [463.87420951]
+      Epoch: 480
+        Sum of Errors Squared: [462.58819948]
+      Epoch: 490
+        Sum of Errors Squared: [461.35544689]
+      Epoch: 500
+        Sum of Errors Squared: [460.15469468]
+      Epoch: 510
+        Sum of Errors Squared: [458.98378642]
+      Epoch: 520
+        Sum of Errors Squared: [457.84131775]
+      Epoch: 530
+        Sum of Errors Squared: [456.72609866]
+      Epoch: 540
+        Sum of Errors Squared: [455.63703144]
+      Epoch: 550
+        Sum of Errors Squared: [454.5730663]
+      Epoch: 560
+        Sum of Errors Squared: [453.5331885]
+      Epoch: 570
+        Sum of Errors Squared: [452.51641685]
+      Epoch: 580
+        Sum of Errors Squared: [451.52180572]
+      Epoch: 590
+        Sum of Errors Squared: [450.54844764]
+      Epoch: 600
+        Sum of Errors Squared: [449.59547518]
+      Epoch: 610
+        Sum of Errors Squared: [448.66206196]
+      Epoch: 620
+        Sum of Errors Squared: [447.74742272]
+      Epoch: 630
+        Sum of Errors Squared: [446.8508127]
+      Epoch: 640
+        Sum of Errors Squared: [445.97152636]
+      Epoch: 650
+        Sum of Errors Squared: [445.10889583]
+      Epoch: 660
+        Sum of Errors Squared: [444.26228908]
+      Epoch: 670
+        Sum of Errors Squared: [443.43110796]
+      Epoch: 680
+        Sum of Errors Squared: [442.61478619]
+      Epoch: 690
+        Sum of Errors Squared: [441.81278742]
+      Epoch: 700
+        Sum of Errors Squared: [441.02460328]
+      Epoch: 710
+        Sum of Errors Squared: [440.24975153]
+      Epoch: 720
+        Sum of Errors Squared: [439.48777437]
+      Epoch: 730
+        Sum of Errors Squared: [438.73823674]
+      Epoch: 740
+        Sum of Errors Squared: [438.00072481]
+      Epoch: 750
+        Sum of Errors Squared: [437.27484456]
+      Epoch: 760
+        Sum of Errors Squared: [436.56022045]
+      Epoch: 770
+        Sum of Errors Squared: [435.85649415]
+      Epoch: 780
+        Sum of Errors Squared: [435.16332346]
+      Epoch: 790
+        Sum of Errors Squared: [434.48038121]
+      Epoch: 800
+        Sum of Errors Squared: [433.8073543]
+      Epoch: 810
+        Sum of Errors Squared: [433.1439428]
+      Epoch: 820
+        Sum of Errors Squared: [432.48985912]
+      Epoch: 830
+        Sum of Errors Squared: [431.84482721]
+      Epoch: 840
+        Sum of Errors Squared: [431.20858188]
+      Epoch: 850
+        Sum of Errors Squared: [430.58086812]
+      Epoch: 860
+        Sum of Errors Squared: [429.9614405]
+      Epoch: 870
+        Sum of Errors Squared: [429.35006258]
+      Epoch: 880
+        Sum of Errors Squared: [428.74650639]
+      Epoch: 890
+        Sum of Errors Squared: [428.15055194]
+      Epoch: 900
+        Sum of Errors Squared: [427.56198677]
+      Epoch: 910
+        Sum of Errors Squared: [426.98060551]
+      Epoch: 920
+        Sum of Errors Squared: [426.40620948]
+      Epoch: 930
+        Sum of Errors Squared: [425.83860633]
+      Epoch: 940
+        Sum of Errors Squared: [425.27760966]
+      Epoch: 950
+        Sum of Errors Squared: [424.72303874]
+      Epoch: 960
+        Sum of Errors Squared: [424.17471818]
+      Epoch: 970
+        Sum of Errors Squared: [423.63247761]
+      Epoch: 980
+        Sum of Errors Squared: [423.09615146]
+      Epoch: 990
+        Sum of Errors Squared: [422.5655787]
+      Epoch: 1000
+        Sum of Errors Squared: [422.04060255]
+  Fold: 4
+    Training Network
+      Epoch: 1
+        Sum of Errors Squared: [986.29867875]
+      Epoch: 10
+        Sum of Errors Squared: [791.20293421]
+      Epoch: 20
+        Sum of Errors Squared: [714.58764832]
+      Epoch: 30
+        Sum of Errors Squared: [678.48588226]
+      Epoch: 40
+        Sum of Errors Squared: [655.31817458]
+      Epoch: 50
+        Sum of Errors Squared: [638.29586551]
+      Epoch: 60
+        Sum of Errors Squared: [624.74841307]
+      Epoch: 70
+        Sum of Errors Squared: [613.44421288]
+      Epoch: 80
+        Sum of Errors Squared: [603.72467759]
+      Epoch: 90
+        Sum of Errors Squared: [595.18495676]
+      Epoch: 100
+        Sum of Errors Squared: [587.55219004]
+      Epoch: 110
+        Sum of Errors Squared: [580.62773753]
+      Epoch: 120
+        Sum of Errors Squared: [574.25397131]
+      Epoch: 130
+        Sum of Errors Squared: [568.28416229]
+      Epoch: 140
+        Sum of Errors Squared: [562.50968466]
+      Epoch: 150
+        Sum of Errors Squared: [556.22526409]
+      Epoch: 160
+        Sum of Errors Squared: [548.96027755]
+      Epoch: 170
+        Sum of Errors Squared: [542.00181099]
+      Epoch: 180
+        Sum of Errors Squared: [536.17028236]
+      Epoch: 190
+        Sum of Errors Squared: [531.09616311]
+      Epoch: 200
+        Sum of Errors Squared: [526.5130758]
+      Epoch: 210
+        Sum of Errors Squared: [522.27509992]
+      Epoch: 220
+        Sum of Errors Squared: [518.27812657]
+      Epoch: 230
+        Sum of Errors Squared: [514.37203603]
+      Epoch: 240
+        Sum of Errors Squared: [510.77382249]
+      Epoch: 250
+        Sum of Errors Squared: [507.42238029]
+      Epoch: 260
+        Sum of Errors Squared: [504.22408553]
+      Epoch: 270
+        Sum of Errors Squared: [501.16545649]
+      Epoch: 280
+        Sum of Errors Squared: [498.23686737]
+      Epoch: 290
+        Sum of Errors Squared: [495.42917015]
+      Epoch: 300
+        Sum of Errors Squared: [492.73372373]
+      Epoch: 310
+        Sum of Errors Squared: [490.14248815]
+      Epoch: 320
+        Sum of Errors Squared: [487.64808329]
+      Epoch: 330
+        Sum of Errors Squared: [485.24382038]
+      Epoch: 340
+        Sum of Errors Squared: [482.92370307]
+      Epoch: 350
+        Sum of Errors Squared: [480.68239546]
+      Epoch: 360
+        Sum of Errors Squared: [478.51515809]
+      Epoch: 370
+        Sum of Errors Squared: [476.41775738]
+      Epoch: 380
+        Sum of Errors Squared: [474.38636172]
+      Epoch: 390
+        Sum of Errors Squared: [472.41744404]
+      Epoch: 400
+        Sum of Errors Squared: [470.50771157]
+      Epoch: 410
+        Sum of Errors Squared: [468.65407307]
+      Epoch: 420
+        Sum of Errors Squared: [466.85363661]
+      Epoch: 430
+        Sum of Errors Squared: [465.10371846]
+      Epoch: 440
+        Sum of Errors Squared: [463.40184473]
+      Epoch: 450
+        Sum of Errors Squared: [461.74573826]
+      Epoch: 460
+        Sum of Errors Squared: [460.13329462]
+      Epoch: 470
+        Sum of Errors Squared: [458.56255609]
+      Epoch: 480
+        Sum of Errors Squared: [457.03168957]
+      Epoch: 490
+        Sum of Errors Squared: [455.5389708]
+      Epoch: 500
+        Sum of Errors Squared: [454.08277346]
+      Epoch: 510
+        Sum of Errors Squared: [452.6615612]
+      Epoch: 520
+        Sum of Errors Squared: [451.27388064]
+      Epoch: 530
+        Sum of Errors Squared: [449.91835487]
+      Epoch: 540
+        Sum of Errors Squared: [448.59367685]
+      Epoch: 550
+        Sum of Errors Squared: [447.29860322]
+      Epoch: 560
+        Sum of Errors Squared: [446.03194852]
+      Epoch: 570
+        Sum of Errors Squared: [444.79257996]
+      Epoch: 580
+        Sum of Errors Squared: [443.57941285]
+      Epoch: 590
+        Sum of Errors Squared: [442.39140653]
+      Epoch: 600
+        Sum of Errors Squared: [441.22756076]
+      Epoch: 610
+        Sum of Errors Squared: [440.08691236]
+      Epoch: 620
+        Sum of Errors Squared: [438.96853203]
+      Epoch: 630
+        Sum of Errors Squared: [437.87152103]
+      Epoch: 640
+        Sum of Errors Squared: [436.79500779]
+      Epoch: 650
+        Sum of Errors Squared: [435.73814388]
+      Epoch: 660
+        Sum of Errors Squared: [434.70009927]
+      Epoch: 670
+        Sum of Errors Squared: [433.68005615]
+      Epoch: 680
+        Sum of Errors Squared: [432.67720038]
+      Epoch: 690
+        Sum of Errors Squared: [431.69070884]
+      Epoch: 700
+        Sum of Errors Squared: [430.71972861]
+      Epoch: 710
+        Sum of Errors Squared: [429.76333938]
+      Epoch: 720
+        Sum of Errors Squared: [428.82047485]
+      Epoch: 730
+        Sum of Errors Squared: [427.88972306]
+      Epoch: 740
+        Sum of Errors Squared: [426.96864924]
+      Epoch: 750
+        Sum of Errors Squared: [426.05023939]
+      Epoch: 760
+        Sum of Errors Squared: [425.08990261]
+      Epoch: 770
+        Sum of Errors Squared: [423.81285877]
+      Epoch: 780
+        Sum of Errors Squared: [422.72795026]
+      Epoch: 790
+        Sum of Errors Squared: [421.88054807]
+      Epoch: 800
+        Sum of Errors Squared: [420.6991449]
+      Epoch: 810
+        Sum of Errors Squared: [419.69646391]
+      Epoch: 820
+        Sum of Errors Squared: [418.79021637]
+      Epoch: 830
+        Sum of Errors Squared: [417.90995863]
+      Epoch: 840
+        Sum of Errors Squared: [417.05078772]
+      Epoch: 850
+        Sum of Errors Squared: [416.21125073]
+      Epoch: 860
+        Sum of Errors Squared: [415.38974868]
+      Epoch: 870
+        Sum of Errors Squared: [414.58491596]
+      Epoch: 880
+        Sum of Errors Squared: [413.79587012]
+      Epoch: 890
+        Sum of Errors Squared: [413.02234552]
+      Epoch: 900
+        Sum of Errors Squared: [412.26457553]
+      Epoch: 910
+        Sum of Errors Squared: [411.52245704]
+      Epoch: 920
+        Sum of Errors Squared: [410.79443393]
+      Epoch: 930
+        Sum of Errors Squared: [410.07822664]
+      Epoch: 940
+        Sum of Errors Squared: [409.37270254]
+      Epoch: 950
+        Sum of Errors Squared: [408.67785732]
+      Epoch: 960
+        Sum of Errors Squared: [407.99382487]
+      Epoch: 970
+        Sum of Errors Squared: [407.32050326]
+      Epoch: 980
+        Sum of Errors Squared: [406.65761863]
+      Epoch: 990
+        Sum of Errors Squared: [406.00483394]
+      Epoch: 1000
+        Sum of Errors Squared: [405.36180617]
+  Fold: 5
+    Training Network
+      Epoch: 1
+        Sum of Errors Squared: [986.74351488]
+      Epoch: 10
+        Sum of Errors Squared: [803.44156164]
+      Epoch: 20
+        Sum of Errors Squared: [725.0632846]
+      Epoch: 30
+        Sum of Errors Squared: [686.2860585]
+      Epoch: 40
+        Sum of Errors Squared: [660.57805867]
+      Epoch: 50
+        Sum of Errors Squared: [641.64646931]
+      Epoch: 60
+        Sum of Errors Squared: [626.74283084]
+      Epoch: 70
+        Sum of Errors Squared: [614.49715382]
+      Epoch: 80
+        Sum of Errors Squared: [604.09746072]
+      Epoch: 90
+        Sum of Errors Squared: [595.01159415]
+      Epoch: 100
+        Sum of Errors Squared: [586.84077567]
+      Epoch: 110
+        Sum of Errors Squared: [579.13833109]
+      Epoch: 120
+        Sum of Errors Squared: [571.43871367]
+      Epoch: 130
+        Sum of Errors Squared: [562.39770734]
+      Epoch: 140
+        Sum of Errors Squared: [554.07233471]
+      Epoch: 150
+        Sum of Errors Squared: [547.34281871]
+      Epoch: 160
+        Sum of Errors Squared: [541.63126268]
+      Epoch: 170
+        Sum of Errors Squared: [536.56601615]
+      Epoch: 180
+        Sum of Errors Squared: [531.96227542]
+      Epoch: 190
+        Sum of Errors Squared: [527.71530424]
+      Epoch: 200
+        Sum of Errors Squared: [523.7585862]
+      Epoch: 210
+        Sum of Errors Squared: [520.04638773]
+      Epoch: 220
+        Sum of Errors Squared: [516.5452689]
+      Epoch: 230
+        Sum of Errors Squared: [513.22939602]
+      Epoch: 240
+        Sum of Errors Squared: [510.07793135]
+      Epoch: 250
+        Sum of Errors Squared: [507.07371395]
+      Epoch: 260
+        Sum of Errors Squared: [504.20260019]
+      Epoch: 270
+        Sum of Errors Squared: [501.45297392]
+      Epoch: 280
+        Sum of Errors Squared: [498.8152206]
+      Epoch: 290
+        Sum of Errors Squared: [496.28119847]
+      Epoch: 300
+        Sum of Errors Squared: [493.8438053]
+      Epoch: 310
+        Sum of Errors Squared: [491.4966865]
+      Epoch: 320
+        Sum of Errors Squared: [489.23406613]
+      Epoch: 330
+        Sum of Errors Squared: [487.0506565]
+      Epoch: 340
+        Sum of Errors Squared: [484.9416071]
+      Epoch: 350
+        Sum of Errors Squared: [482.90246884]
+      Epoch: 360
+        Sum of Errors Squared: [480.92916205]
+      Epoch: 370
+        Sum of Errors Squared: [479.01794428]
+      Epoch: 380
+        Sum of Errors Squared: [477.16537708]
+      Epoch: 390
+        Sum of Errors Squared: [475.36829245]
+      Epoch: 400
+        Sum of Errors Squared: [473.62375991]
+      Epoch: 410
+        Sum of Errors Squared: [471.9290554]
+      Epoch: 420
+        Sum of Errors Squared: [470.2816328]
+      Epoch: 430
+        Sum of Errors Squared: [468.67909898]
+      Epoch: 440
+        Sum of Errors Squared: [467.11919293]
+      Epoch: 450
+        Sum of Errors Squared: [465.59976924]
+      Epoch: 460
+        Sum of Errors Squared: [464.11878629]
+      Epoch: 470
+        Sum of Errors Squared: [462.67429922]
+      Epoch: 480
+        Sum of Errors Squared: [461.26445747]
+      Epoch: 490
+        Sum of Errors Squared: [459.88750643]
+      Epoch: 500
+        Sum of Errors Squared: [458.54179196]
+      Epoch: 510
+        Sum of Errors Squared: [457.22576606]
+      Epoch: 520
+        Sum of Errors Squared: [455.93799139]
+      Epoch: 530
+        Sum of Errors Squared: [454.67714236]
+      Epoch: 540
+        Sum of Errors Squared: [453.44200146]
+      Epoch: 550
+        Sum of Errors Squared: [452.23145026]
+      Epoch: 560
+        Sum of Errors Squared: [451.04445652]
+      Epoch: 570
+        Sum of Errors Squared: [449.880059]
+      Epoch: 580
+        Sum of Errors Squared: [448.73735211]
+      Epoch: 590
+        Sum of Errors Squared: [447.61547175]
+      Epoch: 600
+        Sum of Errors Squared: [446.51358299]
+      Epoch: 610
+        Sum of Errors Squared: [445.43086912]
+      Epoch: 620
+        Sum of Errors Squared: [444.36652167]
+      Epoch: 630
+        Sum of Errors Squared: [443.3197298]
+      Epoch: 640
+        Sum of Errors Squared: [442.28966781]
+      Epoch: 650
+        Sum of Errors Squared: [441.27547839]
+      Epoch: 660
+        Sum of Errors Squared: [440.27624816]
+      Epoch: 670
+        Sum of Errors Squared: [439.29096953]
+      Epoch: 680
+        Sum of Errors Squared: [438.31847741]
+      Epoch: 690
+        Sum of Errors Squared: [437.35733769]
+      Epoch: 700
+        Sum of Errors Squared: [436.40563559]
+      Epoch: 710
+        Sum of Errors Squared: [435.46053731]
+      Epoch: 720
+        Sum of Errors Squared: [434.5172585]
+      Epoch: 730
+        Sum of Errors Squared: [433.56584533]
+      Epoch: 740
+        Sum of Errors Squared: [432.57064764]
+      Epoch: 750
+        Sum of Errors Squared: [431.40710298]
+      Epoch: 760
+        Sum of Errors Squared: [430.25902645]
+      Epoch: 770
+        Sum of Errors Squared: [429.49321502]
+      Epoch: 780
+        Sum of Errors Squared: [428.78489723]
+      Epoch: 790
+        Sum of Errors Squared: [428.01339428]
+      Epoch: 800
+        Sum of Errors Squared: [427.21331006]
+      Epoch: 810
+        Sum of Errors Squared: [426.407488]
+      Epoch: 820
+        Sum of Errors Squared: [425.6057748]
+      Epoch: 830
+        Sum of Errors Squared: [424.81231082]
+      Epoch: 840
+        Sum of Errors Squared: [424.02886083]
+      Epoch: 850
+        Sum of Errors Squared: [423.25614772]
+      Epoch: 860
+        Sum of Errors Squared: [422.49439829]
+      Epoch: 870
+        Sum of Errors Squared: [421.74358536]
+      Epoch: 880
+        Sum of Errors Squared: [421.00354734]
+      Epoch: 890
+        Sum of Errors Squared: [420.27405285]
+      Epoch: 900
+        Sum of Errors Squared: [419.55483752]
+      Epoch: 910
+        Sum of Errors Squared: [418.84562523]
+      Epoch: 920
+        Sum of Errors Squared: [418.14614019]
+      Epoch: 930
+        Sum of Errors Squared: [417.45611359]
+      Epoch: 940
+        Sum of Errors Squared: [416.77528693]
+      Epoch: 950
+        Sum of Errors Squared: [416.10341345]
+      Epoch: 960
+        Sum of Errors Squared: [415.4402585]
+      Epoch: 970
+        Sum of Errors Squared: [414.78559926]
+      Epoch: 980
+        Sum of Errors Squared: [414.13922412]
+      Epoch: 990
+        Sum of Errors Squared: [413.500932]
+      Epoch: 1000
+        Sum of Errors Squared: [412.87053153]
+Average Performance Metrics:
+Average K-Fold Output SSQ Errors: 406.40350640022405
+Accuracy: 79.02%
+True Positives: 187.4
+True Negatives: 539.6
+False Positives: 17.8
+False Negatives: 175.2
+True Positive Rate (sensitivity): 51.61%
+Positive Prediction Value (precision): 91.29%
+True Negative Rate (specificity): 96.80%
+F1 Score: 65.85%
+
+
+
+    Training Network
+      Epoch: 1
+        Sum of Errors Squared: [1065.40869893]
+      Epoch: 10
+        Sum of Errors Squared: [852.44432061]
+      Epoch: 20
+        Sum of Errors Squared: [771.09279887]
+      Epoch: 30
+        Sum of Errors Squared: [730.08915096]
+      Epoch: 40
+        Sum of Errors Squared: [702.76207086]
+      Epoch: 50
+        Sum of Errors Squared: [682.41279882]
+      Epoch: 60
+        Sum of Errors Squared: [666.15051871]
+      Epoch: 70
+        Sum of Errors Squared: [652.48378784]
+      Epoch: 80
+        Sum of Errors Squared: [640.45245089]
+      Epoch: 90
+        Sum of Errors Squared: [628.85499506]
+      Epoch: 100
+        Sum of Errors Squared: [616.61809767]
+      Epoch: 110
+        Sum of Errors Squared: [605.49969412]
+      Epoch: 120
+        Sum of Errors Squared: [596.37975259]
+      Epoch: 130
+        Sum of Errors Squared: [588.46249951]
+      Epoch: 140
+        Sum of Errors Squared: [581.35831978]
+      Epoch: 150
+        Sum of Errors Squared: [574.87192904]
+      Epoch: 160
+        Sum of Errors Squared: [568.8871209]
+      Epoch: 170
+        Sum of Errors Squared: [563.32430851]
+      Epoch: 180
+        Sum of Errors Squared: [558.12390938]
+      Epoch: 190
+        Sum of Errors Squared: [553.23889989]
+      Epoch: 200
+        Sum of Errors Squared: [548.63114226]
+      Epoch: 210
+        Sum of Errors Squared: [544.26933624]
+      Epoch: 220
+        Sum of Errors Squared: [540.12766801]
+      Epoch: 230
+        Sum of Errors Squared: [536.18477103]
+      Epoch: 240
+        Sum of Errors Squared: [532.42285296]
+      Epoch: 250
+        Sum of Errors Squared: [528.82694904]
+      Epoch: 260
+        Sum of Errors Squared: [525.38430025]
+      Epoch: 270
+        Sum of Errors Squared: [522.0838558]
+      Epoch: 280
+        Sum of Errors Squared: [518.91588934]
+      Epoch: 290
+        Sum of Errors Squared: [515.87171009]
+      Epoch: 300
+        Sum of Errors Squared: [512.94344849]
+      Epoch: 310
+        Sum of Errors Squared: [510.12389853]
+      Epoch: 320
+        Sum of Errors Squared: [507.40640312]
+      Epoch: 330
+        Sum of Errors Squared: [504.78477196]
+      Epoch: 340
+        Sum of Errors Squared: [502.25322396]
+      Epoch: 350
+        Sum of Errors Squared: [499.80634764]
+      Epoch: 360
+        Sum of Errors Squared: [497.43907416]
+      Epoch: 370
+        Sum of Errors Squared: [495.14665892]
+      Epoch: 380
+        Sum of Errors Squared: [492.92466856]
+      Epoch: 390
+        Sum of Errors Squared: [490.7689712]
+      Epoch: 400
+        Sum of Errors Squared: [488.67572829]
+      Epoch: 410
+        Sum of Errors Squared: [486.64138698]
+      Epoch: 420
+        Sum of Errors Squared: [484.66267221]
+      Epoch: 430
+        Sum of Errors Squared: [482.73657842]
+      Epoch: 440
+        Sum of Errors Squared: [480.86036151]
+      Epoch: 450
+        Sum of Errors Squared: [479.03153255]
+      Epoch: 460
+        Sum of Errors Squared: [477.24785572]
+      Epoch: 470
+        Sum of Errors Squared: [475.50735222]
+      Epoch: 480
+        Sum of Errors Squared: [473.8083104]
+      Epoch: 490
+        Sum of Errors Squared: [472.14929726]
+      Epoch: 500
+        Sum of Errors Squared: [470.52916052]
+      Epoch: 510
+        Sum of Errors Squared: [468.9470047]
+      Epoch: 520
+        Sum of Errors Squared: [467.40212487]
+      Epoch: 530
+        Sum of Errors Squared: [465.8938933]
+      Epoch: 540
+        Sum of Errors Squared: [464.42161463]
+      Epoch: 550
+        Sum of Errors Squared: [462.98438547]
+      Epoch: 560
+        Sum of Errors Squared: [461.58099916]
+      Epoch: 570
+        Sum of Errors Squared: [460.20992242]
+      Epoch: 580
+        Sum of Errors Squared: [458.86934777]
+      Epoch: 590
+        Sum of Errors Squared: [457.55731528]
+      Epoch: 600
+        Sum of Errors Squared: [456.27191465]
+      Epoch: 610
+        Sum of Errors Squared: [455.01163891]
+      Epoch: 620
+        Sum of Errors Squared: [453.77601586]
+      Epoch: 630
+        Sum of Errors Squared: [452.56626307]
+      Epoch: 640
+        Sum of Errors Squared: [451.38432001]
+      Epoch: 650
+        Sum of Errors Squared: [450.22986197]
+      Epoch: 660
+        Sum of Errors Squared: [449.10040975]
+      Epoch: 670
+        Sum of Errors Squared: [447.99411189]
+      Epoch: 680
+        Sum of Errors Squared: [446.91013016]
+      Epoch: 690
+        Sum of Errors Squared: [445.84788529]
+      Epoch: 700
+        Sum of Errors Squared: [444.80674756]
+      Epoch: 710
+        Sum of Errors Squared: [443.78602318]
+      Epoch: 720
+        Sum of Errors Squared: [442.78499167]
+      Epoch: 730
+        Sum of Errors Squared: [441.8029326]
+      Epoch: 740
+        Sum of Errors Squared: [440.83914038]
+      Epoch: 750
+        Sum of Errors Squared: [439.89293284]
+      Epoch: 760
+        Sum of Errors Squared: [438.9636566]
+      Epoch: 770
+        Sum of Errors Squared: [438.0506907]
+      Epoch: 780
+        Sum of Errors Squared: [437.15344878]
+      Epoch: 790
+        Sum of Errors Squared: [436.27138015]
+      Epoch: 800
+        Sum of Errors Squared: [435.40396964]
+      Epoch: 810
+        Sum of Errors Squared: [434.55073652]
+      Epoch: 820
+        Sum of Errors Squared: [433.71123269]
+      Epoch: 830
+        Sum of Errors Squared: [432.88504026]
+      Epoch: 840
+        Sum of Errors Squared: [432.07176879]
+      Epoch: 850
+        Sum of Errors Squared: [431.27105249]
+      Epoch: 860
+        Sum of Errors Squared: [430.48254751]
+      Epoch: 870
+        Sum of Errors Squared: [429.70592947]
+      Epoch: 880
+        Sum of Errors Squared: [428.94089132]
+      Epoch: 890
+        Sum of Errors Squared: [428.18714148]
+      Epoch: 900
+        Sum of Errors Squared: [427.44440232]
+      Epoch: 910
+        Sum of Errors Squared: [426.71240882]
+      Epoch: 920
+        Sum of Errors Squared: [425.99090749]
+      Epoch: 930
+        Sum of Errors Squared: [425.27965526]
+      Epoch: 940
+        Sum of Errors Squared: [424.57841865]
+      Epoch: 950
+        Sum of Errors Squared: [423.88697286]
+      Epoch: 960
+        Sum of Errors Squared: [423.20510104]
+      Epoch: 970
+        Sum of Errors Squared: [422.53259354]
+      Epoch: 980
+        Sum of Errors Squared: [421.8692473]
+      Epoch: 990
+        Sum of Errors Squared: [421.21486535]
+      Epoch: 1000
+        Sum of Errors Squared: [420.56925625]
+Testing Set Performance Metrics:
+Output SSQ Errors: [420.56925625]
+Accuracy: 85.00%
+True Positives: 229
+True Negatives: 281
+False Positives: 80
+False Negatives: 10
+True Positive Rate (sensitivity): 95.82%
+Positive Prediction Value (precision): 74.11%
+True Negative Rate (specificity): 77.84%
+F1 Score: 83.58%
+
+Script done on Thu 22 Nov 2018 06:22:19 PM EST

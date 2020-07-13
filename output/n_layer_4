@@ -1,0 +1,124 @@
+Script started on Fri 23 Nov 2018 05:00:03 PM EST
+58 Dimensions
+4001 Triaining Set Observations
+600 Test Set Observations
+Performing Back Propogation on 1000 epochs
+K-Fold Cross-Validation with 5 Folds
+Learning Rate: 0.1
+Number of neurons per Hidden Layer: 3
+Number of Hidden Layers: 3
+Performing K-Fold Validation with K: 5 Folds 920 size each
+  Fold: 1
+    Training Network
+      Epoch: 1
+        Sum of Errors Squared: [942.54316821]
+      Epoch: 10
+        Sum of Errors Squared: [929.9022376]
+      Epoch: 20
+        Sum of Errors Squared: [929.80177726]
+      Epoch: 30
+        Sum of Errors Squared: [929.76869531]
+      Epoch: 40
+        Sum of Errors Squared: [929.74135953]
+      Epoch: 50
+        Sum of Errors Squared: [929.68510115]
+      Epoch: 60
+        Sum of Errors Squared: [929.2959414]
+      Epoch: 70
+        Sum of Errors Squared: [768.20064277]
+      Epoch: 80
+        Sum of Errors Squared: [666.91227352]
+      Epoch: 90
+        Sum of Errors Squared: [626.69650224]
+      Epoch: 100
+        Sum of Errors Squared: [605.04560772]
+      Epoch: 110
+        Sum of Errors Squared: [589.84608313]
+      Epoch: 120
+        Sum of Errors Squared: [577.64497744]
+      Epoch: 130
+        Sum of Errors Squared: [567.29884779]
+      Epoch: 140
+        Sum of Errors Squared: [558.57488]
+      Epoch: 150
+        Sum of Errors Squared: [550.98931928]
+      Epoch: 160
+        Sum of Errors Squared: [544.0256489]
+      Epoch: 170
+        Sum of Errors Squared: [536.84917703]
+      Epoch: 180
+        Sum of Errors Squared: [530.61970569]
+      Epoch: 190
+        Sum of Errors Squared: [524.44219838]
+      Epoch: 200
+        Sum of Errors Squared: [518.49920212]
+      Epoch: 210
+        Sum of Errors Squared: [513.21759701]
+      Epoch: 220
+        Sum of Errors Squared: [508.29337299]
+      Epoch: 230
+        Sum of Errors Squared: [503.79315591]
+      Epoch: 240
+        Sum of Errors Squared: [499.69829938]
+      Epoch: 250
+        Sum of Errors Squared: [495.92720071]
+      Epoch: 260
+        Sum of Errors Squared: [492.40681258]
+      Epoch: 270
+        Sum of Errors Squared: [489.09301703]
+      Epoch: 280
+        Sum of Errors Squared: [485.95556181]
+      Epoch: 290
+        Sum of Errors Squared: [482.9711448]
+      Epoch: 300
+        Sum of Errors Squared: [480.1204365]
+      Epoch: 310
+        Sum of Errors Squared: [477.38814049]
+      Epoch: 320
+        Sum of Errors Squared: [474.76260722]
+      Epoch: 330
+        Sum of Errors Squared: [472.23461401]
+      Epoch: 340
+        Sum of Errors Squared: [469.79727331]
+      Epoch: 350
+        Sum of Errors Squared: [467.44606739]
+      Epoch: 360
+        Sum of Errors Squared: [465.17639219]
+      Epoch: 370
+        Sum of Errors Squared: [462.98024799]
+      Epoch: 380
+        Sum of Errors Squared: [460.84691465]
+      Epoch: 390
+        Sum of Errors Squared: [458.76666171]
+      Epoch: 400
+        Sum of Errors Squared: [456.73310862]
+      Epoch: 410
+        Sum of Errors Squared: [454.74372177]
+      Epoch: 420
+        Sum of Errors Squared: [452.79932361]
+      Epoch: 430
+        Sum of Errors Squared: [450.90310688]
+      Epoch: 440
+        Sum of Errors Squared: [449.05941302]
+^C  Fold: 2
+    Training Network
+      Epoch: 1
+^C        Sum of Errors Squared: [944.06876365]
+^C^CTraceback (most recent call last):
+  File "./net.py", line 384, in <module>
+    main()
+  File "./net.py", line 340, in main
+    metrics, mean_err = cross_validate_back_prop(dataset.tolist())
+  File "./net.py", line 170, in cross_validate_back_prop
+    predicted, err = back_prop(train, valid)
+  File "./net.py", line 188, in back_prop
+    out_predict.append(forward(row)[0])
+  File "./net.py", line 241, in forward
+    z2[i] = np.insert(z2[i], 0, 1)
+  File "/usr/local/lib/python3.4/dist-packages/numpy/lib/function_base.py", line 4428, in insert
+    values = np.moveaxis(values, 0, axis)
+  File "/usr/local/lib/python3.4/dist-packages/numpy/core/numeric.py", line 1588, in moveaxis
+    for dest, src in sorted(zip(destination, source)):
+KeyboardInterrupt
+^C^C
+Script done on Fri 23 Nov 2018 05:04:58 PM EST
